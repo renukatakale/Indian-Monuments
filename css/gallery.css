@@ -1,0 +1,40 @@
+body{
+    background:rgb(0,0,0,0.2);
+    font-family: 'Josefin Slab', serif;
+}
+
+
+header{
+    font-size: 44px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    
+}
+
+main{
+    margin-left: 120px;
+}
+.gallery{
+    padding: 10px;
+    padding-left: 12px;
+    display: block;
+    float: left;
+    width: 390px;
+    border-radius: 5px;
+    
+}
+img{
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(2,2);
+    transition: 3s transform;
+}
+.gallery img .alt{
+    padding: 15px; 
+    text-align: center; 
+}
+
+
